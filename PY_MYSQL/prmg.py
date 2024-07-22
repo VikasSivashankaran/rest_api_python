@@ -10,7 +10,7 @@ class Users:
         self.id = id
         self.email = email
         self.password = password
-        self.user_name = user_name
+        self.user_name = u.ser_name
 
     def __str__(self) -> str:
         return f"{self.id} - {self.email} - {self.password} - {self.user_name}"
